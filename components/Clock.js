@@ -8,19 +8,16 @@ export default class ClockScreen extends React.Component {
         this.state = {time: new Date()};
     }
 
-    tick() {
+    newTime() {
         this.setState({time: new Date()});
     }
     
     componentDidMount() {
-        this.timer = setInterval(
-            () => this.tick(),
-            1000
-        );
+        this.clock = setInterval(() => this.newTime(), 1000);
     }
     
     componentWillUnmount() {
-        clearInterval(this.timer);
+        clearInterval(this.clock);
     }
     
     render() {

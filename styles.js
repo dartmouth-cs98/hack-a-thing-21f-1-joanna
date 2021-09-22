@@ -10,29 +10,29 @@ export const styles = StyleSheet.create({
     },
     clock: {
         fontSize: 50,
-        fontWeight: 'bold',
         fontFamily: 'sans-serif'
     },
-    stopwatchTime: {
-        display: "flex",
-        flexDirection: "row",
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    stopwatchText: {
-      fontSize: 50,
-    //   color: "#C89933",
-    },
-    button: {
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "space-around",
-        marginTop: "12%",
-    },
-    sectionStyle: {
+    stopwatch: {
         flex: 1,
         marginTop: 32,
         alignItems: 'center',
         justifyContent: 'center',
     },
+    button: {
+        fontSize: 20,
+        marginTop: 10,
+    },
 });
+
+export const options = {
+    container: {
+      padding: 5,
+      width: 300,
+      alignItems: 'center',
+    },
+    text: {
+      fontSize: 40,
+      color: '#000',
+      marginLeft: 7,
+    },
+  };
