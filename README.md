@@ -4,7 +4,7 @@
 
 I attempted to build a simple react-native application that implements a stopwatch with the typical start, stop, and reset buttons. I wanted to include page navigation, which is why I also added a simple digital clock that displays the system time. I considered adding a timer as well because this is related to the stopwatch and the clock. Instead, I chose to create something that does not fit here but is pretty common in most applications: a table/list with a search bar for filtering the table. I did not get to finish this feature though.
 
-See assets folder for screenshots of the clock and stopwatch.
+See results folder for screenshots of the clock and stopwatch.
 
 ## Who Did What?
 
